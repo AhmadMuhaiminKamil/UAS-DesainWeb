@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorium Informatika</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="indexpage">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark custom-navbar">
+        <div class="container-fluid">
+            <div class="d-flex align-items-center">
+                <img src="img/unandbg.png" alt="Logo" class="logo">
+                <span class="navbar-brand ms-2">Laboratorium Pemrograman dan Informatika</span>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">BERANDA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">TENTANG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="berita.html">BERITA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeri.html">GALERI</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container text-center text-white">
+            <h1 class="display-3">Informatics Laboratory</h1>
+            <p class="lead">Laboratorium Pemrograman Informatika Universitas Andalas adalah pusat pengembangan keterampilan pemrograman yang mendukung pengajaran dan penelitian di bidang informatika dan ilmu komputer. Dengan fasilitas terkini dan lingkungan yang kolaboratif, lab ini bertujuan untuk menciptakan ekosistem belajar yang inovatif bagi mahasiswa dari berbagai tingkat.</p>
+        </div>
+    </section>
+
+<!-- Custom Card Section -->
+<section class="content-section">
+  <div class="container text-center text-white carousel-all">
+      <h2>Berita Terbaru</h2>
+      <!-- Bootstrap Carousel -->
+      <div id="newsCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+              <!-- First Carousel Item: Two Cards -->
+              <div class="carousel-item active">
+                  <div class="row">
+                      <div class="col-md-6">
+                          <div class="custom-card mb-3">
+                              <img src="img/news1.png" class="card-img-top" alt="Card 1">
+                              <div class="card-body">
+                                  <p class="card-text">Poalca Valusio, Mahasiswa Informatika, Raih Medali Emas di World Invention Competition and Exhibition 2024</p>
+                                  <a href="http://if.fti.unand.ac.id/index.php?option=com_content&view=article&id=177:poalca-valusio-mahasiswa-informatika-raih-medali-emas-di-world-invention-competition-and-exhibition-2024&catid=102:berita&Itemid=303" class="btn btn-primary">Baca Selengkapnya</a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-md-6">
+                          <div class="custom-card mb-3">
+                              <img src="img/news2.png" class="card-img-top" alt="Card 2">
+                              <div class="card-body">
+                                  <p class="card-text">Program Studi Informatika Raih Penghargaan Terbaik 3 Program Studi Bekerjasama dengan DUDI</p>
+                                  <a href="http://if.fti.unand.ac.id/index.php?option=com_content&view=article&id=176:program-studi-informatika-raih-penghargaan-terbaik-3-program-studi-bekerjasama-dengan-dudi&catid=102&Itemid=303" class="btn btn-primary">Baca Selengkapnya</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <!-- Second Carousel Item: Two Cards -->
+              <div class="carousel-item">
+                  <div class="row">
+                      <div class="col-md-6">
+                          <div class="custom-card mb-3">
+                              <img src="img/card3.jpg" class="card-img-top" alt="Card 3">
+                              <div class="card-body">
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-md-6">
+                          <div class="custom-card mb-3">
+                              <img src="img/card4.jpg" class="card-img-top" alt="Card 4">
+                              <div class="card-body">
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!-- Carousel Controls -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#newsCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#newsCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+          </button>
+      </div>
+      <!-- Lihat Semua Berita Button -->
+      <a href="berita.html" class="btn btn-info mt-4 text-white bg-primary">LIHAT SEMUA BERITA</a>
+  </div>
+
+  <!-- Statistik Pengunjung Section -->
+<section class="visitor-statistics mt-5">
+  <div class="container text-center text-white">
+      <!-- Title for Statistics -->
+      <h2 class="mb-4">Statistik Pengunjung</h2>
+      <div class="row">
+          <!-- Visitor per Day -->
+          <div class="col-md-6">
+              <div class="stat-card">
+                  <img src="img/user2.png" alt="Visitor per Day" class="stat-icon mb-2 style=" style="width: 80px;">
+                  <h4>Pengunjung per Hari</h4>
+                  <p class="stat-number">1,200</p> 
+              </div>
+          </div>
+          <!-- Visitor per Year -->
+          <div class="col-md-6">
+              <div class="stat-card">
+                  <img src="img/group1.png" alt="Visitor per Year" class="stat-icon mb-2 " style="width: 80px;">
+                  <h4>Pengunjung per Tahun</h4>
+                  <p class="stat-number">50,000</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+  <div class="contacts">
+  <div class="contact">
+    <div class="container text-center">
+      <img src="img/mail.png" style="width: 50px;">
+      <strong>Email : labifunand@gmail.com</strong>
+    </div>
+  </div>
+
+  <div class="contact">
+    <div class="container text-center">
+      <img src="img/phone.png" style="width: 40px;">
+      <strong>Phone: +62 853-5697-1937</strong>
+    </div>
+  </div>
+
+  <div class="contact">
+    <div class="container text-center">
+      <img src="img/loc.png" style="width: 35px;">
+      <strong>Location: Limau Manis, Pauh, Limau Manis, Kec. Pauh, Kota Padang, Sumatera Barat 25163</strong>
+    </div>
+  </div>
+</div>
+</section>
+
+<footer class="footer py-3 custom-navbar">
+  <div class="container text-center">
+    <span class="text-white">© 2024 Laboratorium Informatika Universitas Andalas. All Rights Reserved.</span>
+  </div>
+</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
